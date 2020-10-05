@@ -1,0 +1,758 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Розклад</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<style>
+
+table {
+    border-collapse: collapse;
+}
+
+td, th {
+    border: 1px solid black;
+    padding-left: 5px;
+}
+
+.schedule {
+    width: auto;
+    font-size: 16px;
+    text-align: center;
+}
+
+.schedule td {
+    background-color: white;
+    width: 280px;
+}
+
+.schedule td.day {
+    width: 40px;
+    font-size: 20px;
+    background-color: navajowhite;
+}
+
+.schedule td.number {
+    font-size: 20px;
+    width: 20px;
+    background-color: cornsilk;
+}
+
+.schedule td.history {
+    background-color: white;
+}
+
+.schedule td.java {
+    background-color: white;
+}
+
+.schedule td.os {
+    background-color: white;
+}
+
+.schedule td.db {
+    background-color: white;
+}
+
+.schedule td.web {
+    background-color: white;
+}
+
+.schedule td.eng {
+    background-color: white;
+}
+
+.schedule td.pt {
+    background-color: white;
+}
+
+.schedule td.pract {
+    background-color: white;
+}
+
+.schedule td.math {
+    background-color: white;
+}
+
+.schedule tr.header {
+    font-weight: bold;
+    font-size: larger;
+}
+
+a {
+    font-size: 24px;
+    color: crimson;
+}
+
+.text {
+    border-collapse: separate;
+    color: #006CC2;
+    border: solid 1px #006CC2;
+}
+
+.text .a {
+    font-family: "Comic Sans MS";
+    font-size: 30px;
+    color: #ff0400;
+    text-decoration: underline line-through;
+    font-weight: bold;
+    font-style: italic;
+}
+
+</style>
+
+
+<body>
+<main>
+    <h2>Тиждень 1</h2>
+    <table class="schedule">
+        <tr>
+            <td colspan="6"><h1>Інженерія програмного забезпечення</h1></td>
+        </tr>
+        <tr class="header">
+            <td colspan="2"></td>
+            <td colspan="3">Розробка програмного забезпечення</td>
+            <td colspan="1">Менеджмент ІПЗ та англійська мова</td>
+        </tr>
+        <tr class="header">
+            <td colspan="2"></td>
+            <td>243А(1)</td>
+            <td>243А(2)</td>
+            <td>243А(ск)</td>
+            <td>243Б</td>
+        </tr>
+        <tr>
+            <td class="day" rowspan="4">Понеділок</td>
+            <td class = "number">1.</td>
+            <td class="history" colspan="2">
+                <p>Актуальні питання історії та культури України</p>
+                <p>Балух О.В.</p>
+                <p>Лекція 8-106</p>
+            </td>
+            <td></td>
+            <td  class="history">
+                <p>Актуальні питання історії та культури України</p>
+                <p>Балух О.В.</p>
+                <p>Лекція 8-106</p>
+            </td>
+        </tr>
+        <tr>
+            <td class = "number">2.</td>
+            <td  class = "java" colspan="4">
+                <p>Програмування Java</p>
+                <p>Прохоров Г.В.</p>
+                <p>Лекція 8-224</p>
+            </td>
+        </tr>
+        <tr>
+            <td class = "number">3.</td>
+            <td class = "os" colspan="4">
+                <p>Операційні системи</p>
+                <p>Жихаревич В.В.</p>
+                <p>Лекція 8-224</p>
+            </td>
+        </tr>
+        <tr>
+            <td class = "number">4.</td>
+            <td class="history" colspan="2">
+                <p>Актуальні питання історії та культури України</p>
+                <p>Балух О.В.</p>
+                <p>Семінар 8-106</p>
+            </td>
+            <td></td>
+            <td class="history">
+                <p>Актуальні питання історії та культури України</p>
+                <p>Балух О.В.</p>
+                <p>Семінар 8-106</p>
+            </td>
+        </tr>
+
+        <tr>
+            <td colspan="6"></td>
+        </tr>
+
+        <tr>
+            <td class="day" rowspan="4">Вівторок</td>
+            <td class = "number">1.</td>
+            <td></td>
+            <td></td>
+            <td class = "db">
+                <p>Бази даних</p>
+                <p>Комісарчук В.В.</p>
+                <p>Комп. практикум 8-209</p>
+            </td>
+            <td class = "db">
+                <p>Бази даних</p>
+                <p>Гадзюк К.П.</p>
+                <p>Комп. практикум 8-209</p>
+            </td>
+        </tr>
+        <tr>
+            <td class = "number">2.</td>
+            <td></td>
+            <td></td>
+            <td class = "os">
+                <p>Операційні системи</p>
+                <p>Жихаревич В.В.</p>
+                <p>Комп. практикум 8-209</p>
+            </td>
+            <td class = "web">
+                <p>Web-технології та web-дизайн</p>
+                <p>Янушевський С.В.</p>
+                <p>Комп. практикум 8-207</p>
+            </td>
+        </tr>
+        <tr>
+            <td class = "number">3.</td>
+            <td class = "db">
+                <p>Бази даних</p>
+                <p>Комісарчук В.В.</p>
+                <p>Комп. практикум 8-209</p>
+            </td>
+            <td></td>
+            <td></td>
+            <td class = "eng">
+                <p>Ділове писемне мовлення</p>
+                <p>Ковалюк Ю.В.</p>
+                <p>Практика 8-202</p>
+            </td>
+        </tr>
+        <tr>
+            <td class = "number">4.</td>
+            <td class = "web">
+                <p>Web-дизайн та верстка</p>
+                <p>Янушевський С.В.</p>
+                <p>Комп. практикум 8-209</p>
+            </td>
+            <td></td>
+            <td></td>
+            <td class = "eng">
+                <p>Ділове писемне мовлення</p>
+                <p>Ковалюк Ю.В.</p>
+                <p>Практика 8-202</p>
+            </td>
+        </tr>
+
+        <tr>
+            <td colspan="6"></td>
+        </tr>
+
+        <tr>
+            <td class="day" rowspan="4">Середа</td>
+            <td class = "number">1.</td>
+            <td class = "pt">
+                <p>Емпіричні методи інженерії ПЗ</p>
+                <p>Газдюк К.П.</p>
+                <p>Комп. практикум 8-209</p>
+            </td>
+            <td></td>
+            <td class="pract">
+                <p>Проектний практикум</p>
+                <p>Шумиляк Л.М.</p>
+                <p>Лекція 8-221</p>
+            </td>
+            <td></td>
+        </tr>
+        <tr>
+            <td class = "number">2.</td>
+            <td class="web" colspan="3">
+                <p>Web-дизайн та верстка</p>
+                <p>Комісарчук В.В.</p>
+                <p>Лекція 8-221</p>
+            </td>
+            <td class = "web">
+                <p>Web-технології та web-дизайн</p>
+                <p>Комісарчук В.В.</p>
+                <p>Лекція 8-221</p>
+            </td>
+        </tr>
+        <tr>
+            <td class = "number">3.</td>
+            <td class = "pt" colspan="2">
+                <p>Емпіричні методи інженерії ПЗ</p>
+                <p>Валь О.Д.</p>
+                <p>Лекція 8-221</p>
+            </td>
+            <td class = "math">
+                <p>Математичні основи IT</p>
+                <p>Гадзюк К.П.</p>
+                <p>Лекція 8-317</p>
+            </td>
+            <td class = "pt">
+                <p>Емпіричні методи інженерії ПЗ</p>
+                <p>Валь О.Д.</p>
+                <p>Лекція 8-221</p>
+            </td>
+        </tr>
+        <tr>
+            <td class = "number">4.</td>
+            <td class = "db" colspan="4">
+                <p>Бази даних</p>
+                <p>Янушевський С.В.</p>
+                <p>Лекція 8-224</p>
+            </td>
+        </tr>
+
+        <tr>
+            <td colspan="6"></td>
+        </tr>
+
+        <tr>
+            <td class="day" rowspan="4">Четвер</td>
+            <td class = "number">1.</td>
+            <td></td>
+            <td class = "os">
+                <p>Операційні системи</p>
+                <p>Жихаревич В.В.</p>
+                <p>Комп. практикум 8-207</p>
+            </td>
+            <td></td>
+            <td class="java">
+                <p>Програмування Java</p>
+                <p>Прохоров Г.В.</p>
+                <p>Комп. практикум 8-209</p>
+            </td>
+        </tr>
+        <tr>
+            <td class = "number">2.</td>
+            <td></td>
+            <td class = "pt">
+                <p>Емпіричні методи інженерії ПЗ</p>
+                <p>Тарновецька О.Ю.</p>
+                <p>Практика 8-202</p>
+            </td>
+            <td class = "java" >
+                <p>Програмування Java</p>
+                <p>Прохоров Г.В.</p>
+                <p>Комп. практикум 8-209</p>
+            </td>
+            <td class = "os">
+                <p>Операційні системи</p>
+                <p>Жихаревич В.В.</p>
+                <p>Комп. практикум 8-207</p>
+            </td>
+        </tr>
+        <tr>
+            <td class = "number">3.</td>
+            <td class = "os">
+                <p>Операційні системи</p>
+                <p>Жихаревич В.В.</p>
+                <p>Комп. практикум 8-207</p>
+            </td>
+            <td class = "db">
+                <p>Бази даних</p>
+                <p>Янушевський С.В.</p>
+                <p>Комп. практикум 8-209</p>
+            </td>
+            <td class = "math">
+                <p>Математичні основи IT</p>
+                <p>Тарновецька О.Ю.</p>
+                <p>Практика 8-202</p>
+            </td>
+            <td class = "pt">
+                <p>Емпіричні методи інженерії ПЗ</p>
+                <p>Газдюк К.П.</p>
+                <p>Комп. практикум 8-211</p>
+            </td>
+        </tr>
+        <tr>
+            <td class = "number">4.</td>
+            <td class = "eng" colspan="3">
+                <p>Англійська мова професійного спрямування</p>
+                <p>Козубська С.В / Тоненчук Т.В.</p>
+                <p>Практика 8-211 /8-212</p>
+            </td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td colspan="6"></td>
+        </tr>
+
+        <tr>
+            <td class="day" rowspan="4">П'ятниця</td>
+            <td class = "number">1.</td>
+            <td class = "java" >
+                <p>Програмування Java</p>
+                <p>Прохоров Г.В.</p>
+                <p>Комп. практикум 8-209</p>
+            </td>
+            <td></td>
+            <td></td>
+            <td class = "eng">
+                <p>Усне мовлення та аудіювання</p>
+                <p>Дарчук М.О.</p>
+                <p>Практика 8-211</p>
+            </td>
+        </tr>
+        <tr>
+            <td class = "number">2.</td>
+            <td class="pt">
+                <p>Емпіричні методи інженерії ПЗ</p>
+                <p>Газдюк К.П.</p>
+                <p>Практика 8-204</p>
+            </td>
+            <td class = "web">
+                <p>Web-дизайн та верстка</p>
+                <p>Комісарчук В.В.</p>
+                <p>Комп. практикум 8-209</p>
+            </td>
+            <td></td>
+            <td class = "eng">
+                <p>Усне мовлення та аудіювання</p>
+                <p>Дарчук М.О.</p>
+                <p>Практика 8-211</p>
+            </td>
+        </tr>
+        <tr>
+            <td class = "number">3.</td>
+            <td></td>
+            <td class = "java" >
+                <p>Програмування Java</p>
+                <p>Прохоров Г.В.</p>
+                <p>Комп. практикум 8-209</p>
+            </td>
+            <td class = "math">
+                <p>Математичні основи IT</p>
+                <p>Тарновецька О.Ю.</p>
+                <p>Практика 8-202</p>
+            </td>
+            <td class="pt">
+                <p>Емпіричні методи інженерії ПЗ</p>
+                <p>Газдюк К.П.</p>
+                <p>Комп. практикум 8-207</p>
+            </td>
+        </tr>
+        <tr>
+            <td class = "number">4.</td>
+            <td></td>
+            <td></td>
+            <td class = "web">
+                <p>Web-дизайн та верстка</p>
+                <p>Комісарчук В.В.</p>
+                <p>Комп. практикум 8-209</p>
+            </td>
+            <td></td>
+        </tr>
+    </table>
+    <h2>Тиждень 2</h2>
+    <table class="schedule">
+        <tr>
+            <td colspan="6"><h1>Інженерія програмного забезпечення</h1></td>
+        </tr>
+        <tr class="header">
+            <td colspan="2"></td>
+            <td colspan="3">Розробка програмного забезпечення</td>
+            <td colspan="1">Менеджмент ІПЗ та англійська мова</td>
+        </tr>
+        <tr class="header">
+            <td colspan="2"></td>
+            <td>243А(1)</td>
+            <td>243А(2)</td>
+            <td>243А(ск)</td>
+            <td>243Б</td>
+        </tr>
+        <tr>
+            <td class="day" rowspan="4">Понеділок</td>
+            <td class = "number">1.</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td class = "number">2.</td>
+            <td  class = "java" colspan="4">
+                <p>Програмування Java</p>
+                <p>Прохоров Г.В.</p>
+                <p>Лекція 8-224</p>
+            </td>
+        </tr>
+        <tr>
+            <td class = "number">3.</td>
+            <td class = "os" colspan="4">
+                <p>Операційні системи</p>
+                <p>Жихаревич В.В.</p>
+                <p>Лекція 8-224</p>
+            </td>
+        </tr>
+        <tr>
+            <td class = "number">4.</td>
+            <td class = "eng" colspan="3">
+                <p>Англійська мова професійного спрямування</p>
+                <p>Козубська С.В / Тоненчук Т.В.</p>
+                <p>Практика 8-211 /8-212</p>
+            </td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td colspan="6"></td>
+        </tr>
+
+        <tr>
+            <td class="day" rowspan="4">Вівторок</td>
+            <td class = "number">1.</td>
+            <td></td>
+            <td></td>
+            <td class = "db">
+                <p>Бази даних</p>
+                <p>Комісарчук В.В.</p>
+                <p>Комп. практикум 8-209</p>
+            </td>
+            <td class = "db">
+                <p>Бази даних</p>
+                <p>Гадзюк К.П.</p>
+                <p>Комп. практикум 8-209</p>
+            </td>
+        </tr>
+        <tr>
+            <td class = "number">2.</td>
+            <td></td>
+            <td></td>
+            <td class = "os">
+                <p>Операційні системи</p>
+                <p>Жихаревич В.В.</p>
+                <p>Комп. практикум 8-209</p>
+            </td>
+            <td class = "web">
+                <p>Web-технології та web-дизайн</p>
+                <p>Янушевський С.В.</p>
+                <p>Комп. практикум 8-207</p>
+            </td>
+        </tr>
+        <tr>
+            <td class = "number">3.</td>
+            <td class = "db">
+                <p>Бази даних</p>
+                <p>Комісарчук В.В.</p>
+                <p>Комп. практикум 8-209</p>
+            </td>
+            <td></td>
+            <td></td>
+            <td class = "eng">
+                <p>Ділове писемне мовлення</p>
+                <p>Ковалюк Ю.В.</p>
+                <p>Практика 8-202</p>
+            </td>
+        </tr>
+        <tr>
+            <td class = "number">4.</td>
+            <td class = "web">
+                <p>Web-дизайн та верстка</p>
+                <p>Янушевський С.В.</p>
+                <p>Комп. практикум 8-209</p>
+            </td>
+            <td></td>
+            <td></td>
+            <td class = "eng">
+                <p>Ділове писемне мовлення</p>
+                <p>Ковалюк Ю.В.</p>
+                <p>Практика 8-202</p>
+            </td>
+        </tr>
+
+        <tr>
+            <td colspan="6"></td>
+        </tr>
+
+        <tr>
+            <td class="day" rowspan="4">Середа</td>
+            <td class = "number">1.</td>
+            <td></td>
+            <td class = "pt">
+                <p>Емпіричні методи інженерії ПЗ</p>
+                <p>Газдюк К.П.</p>
+                <p>Комп. практикум 8-209</p>
+            </td>
+            <td> </td>
+            <td></td>
+        </tr>
+        <tr>
+            <td class = "number">2.</td>
+            <td class="web" colspan="3">
+                <p>Web-дизайн та верстка</p>
+                <p>Комісарчук В.В.</p>
+                <p>Лекція 8-221</p>
+            </td>
+            <td class = "web">
+                <p>Web-технології та web-дизайн</p>
+                <p>Комісарчук В.В.</p>
+                <p>Лекція 8-221</p>
+            </td>
+        </tr>
+        <tr>
+            <td class = "number">3.</td>
+            <td class = "pt" colspan="2">
+                <p>Емпіричні методи інженерії ПЗ</p>
+                <p>Валь О.Д.</p>
+                <p>Лекція 8-221</p>
+            </td>
+            <td class = "math">
+                <p>Математичні основи IT</p>
+                <p>Гадзюк К.П.</p>
+                <p>Лекція 8-317</p>
+            </td>
+            <td class = "pt">
+                <p>Емпіричні методи інженерії ПЗ</p>
+                <p>Валь О.Д.</p>
+                <p>Лекція 8-221</p>
+            </td>
+        </tr>
+        <tr>
+            <td class = "number">4.</td>
+            <td class = "db" colspan="4">
+                <p>Бази даних</p>
+                <p>Янушевський С.В.</p>
+                <p>Лекція 8-224</p>
+            </td>
+        </tr>
+
+        <tr>
+            <td colspan="6"></td>
+        </tr>
+
+        <tr>
+            <td class="day" rowspan="4">Четвер</td>
+            <td class = "number">1.</td>
+            <td></td>
+            <td class = "os">
+                <p>Операційні системи</p>
+                <p>Жихаревич В.В.</p>
+                <p>Комп. практикум 8-207</p>
+            </td>
+            <td></td>
+            <td class="java">
+                <p>Програмування Java</p>
+                <p>Прохоров Г.В.</p>
+                <p>Комп. практикум 8-209</p>
+            </td>
+        </tr>
+        <tr>
+            <td class = "number">2.</td>
+            <td></td>
+            <td class = "pt">
+                <p>Емпіричні методи інженерії ПЗ</p>
+                <p>Тарновецька О.Ю.</p>
+                <p>Практика 8-202</p>
+            </td>
+            <td class = "java" >
+                <p>Програмування Java</p>
+                <p>Прохоров Г.В.</p>
+                <p>Комп. практикум 8-209</p>
+            </td>
+            <td class = "os">
+                <p>Операційні системи</p>
+                <p>Жихаревич В.В.</p>
+                <p>Комп. практикум 8-207</p>
+            </td>
+        </tr>
+        <tr>
+            <td class = "number">3.</td>
+            <td class = "os">
+                <p>Операційні системи</p>
+                <p>Жихаревич В.В.</p>
+                <p>Комп. практикум 8-207</p>
+            </td>
+            <td class = "db">
+                <p>Бази даних</p>
+                <p>Янушевський С.В.</p>
+                <p>Комп. практикум 8-209</p>
+            </td>
+            <td class = "math">
+                <p>Математичні основи IT</p>
+                <p>Тарновецька О.Ю.</p>
+                <p>Практика 8-202</p>
+            </td>
+            <td class = "pt">
+                <p>Емпіричні методи інженерії ПЗ</p>
+                <p>Газдюк К.П.</p>
+                <p>Комп. практикум 8-211</p>
+            </td>
+        </tr>
+        <tr>
+            <td class = "number">4.</td>
+            <td class = "eng" colspan="3">
+                <p>Англійська мова професійного спрямування</p>
+                <p>Козубська С.В / Тоненчук Т.В.</p>
+                <p>Практика 8-211 /8-212</p>
+            </td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td colspan="6"></td>
+        </tr>
+
+        <tr>
+            <td class="day" rowspan="4">П'ятниця</td>
+            <td class = "number">1.</td>
+            <td class = "java" >
+                <p>Програмування Java</p>
+                <p>Прохоров Г.В.</p>
+                <p>Комп. практикум 8-209</p>
+            </td>
+            <td></td>
+            <td></td>
+            <td class = "eng">
+                <p>Усне мовлення та аудіювання</p>
+                <p>Дарчук М.О.</p>
+                <p>Практика 8-211</p>
+            </td>
+        </tr>
+        <tr>
+            <td class = "number">2.</td>
+            <td class="pt">
+                <p>Емпіричні методи інженерії ПЗ</p>
+                <p>Газдюк К.П.</p>
+                <p>Практика 8-204</p>
+            </td>
+            <td class = "web">
+                <p>Web-дизайн та верстка</p>
+                <p>Комісарчук В.В.</p>
+                <p>Комп. практикум 8-209</p>
+            </td>
+            <td></td>
+            <td class = "eng">
+                <p>Усне мовлення та аудіювання</p>
+                <p>Дарчук М.О.</p>
+                <p>Практика 8-211</p>
+            </td>
+        </tr>
+        <tr>
+            <td class = "number">3.</td>
+            <td></td>
+            <td class = "java" >
+                <p>Програмування Java</p>
+                <p>Прохоров Г.В.</p>
+                <p>Комп. практикум 8-209</p>
+            </td>
+            <td class = "pract">
+                <p>Проектний практикум</p>
+                <p>Тарновецька О.Ю.</p>
+                <p>Практика 8-207</p>
+            </td>
+            <td class="pt">
+                <p>Емпіричні методи інженерії ПЗ</p>
+                <p>Газдюк К.П.</p>
+                <p>Комп. практикум 8-207</p>
+            </td>
+        </tr>
+        <tr>
+            <td class = "number">4.</td>
+            <td></td>
+            <td></td>
+            <td class = "web">
+                <p>Web-дизайн та верстка</p>
+                <p>Комісарчук В.В.</p>
+                <p>Комп. практикум 8-209</p>
+            </td>
+            <td></td>
+        </tr>
+    </table>
+</main>
+    <center><a>&copy; Виконавець студентка 243 групи, Подлєсна Наталія</a></center>
+    <hr>
+</body>
+</html>

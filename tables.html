@@ -1,0 +1,302 @@
+<html>
+<head>
+</head>
+    <style>
+        .color1{
+            background: #d3acac;
+        }
+        .color2{
+            background: #b98383;
+        }
+        .color3{
+            background: #f8e9e9;
+        }
+        .color4{
+            background: #d39696;
+        }
+        .border{
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+        .border td{
+            border: 1px solid black;
+        }
+        .border th{
+            border: 1px solid black;
+        }
+        .colortext1{
+            color: #6491b5; 
+            font-family: commercialscript bt, serif;
+         }
+        .colortext2{
+            color: #45aad8
+        }
+        .border1{
+            border: 2px solid #7886e0;
+        }
+        .border1 td {
+            border: 3px solid #606cb7
+        }
+        .border1 th {
+            border: 3px solid #606cb7
+        }
+        .color5{
+            background: #dac085;
+            vertical-align: top;
+        }
+        .color6{
+            background: #c3a96e;
+            font-family: consolas, serif;
+            
+        } 
+        .color7{
+            background: #f0e0ba;
+            vertical-align: top;
+            font-family: consolas, serif;
+        }
+        .border2{
+            border: 2px solid brown;
+            border-collapse: collapse;
+        }
+        .border2 td{
+            border: 2px solid brown;
+        }
+        .border2 th{
+            border: 2px solid brown;
+        }
+        .color8{
+            background: #4d851c;
+            color: darkorange;
+            font-family: Consolas, serif;
+            font-size: 24;
+        }
+        .color9{
+            background: #84bb56;
+            text-align: center;
+            font-family: Monotype Corsiva, serif;  
+            font-size: 25;
+        }
+        .color10{
+            background: #ccffa2;
+            vertical-align: top;
+            font-family: Monotype Corsiva, serif; 
+        }
+        .color11{
+            background: #f4bbdf;
+            font-family: monospace, serif;
+            vertical-align: top;
+        }
+        .color12{
+            background: #c7bcc3;
+            font-family: monospace, serif;
+            font-size: 22;
+        }
+        .color13{
+            background: #6d5062;
+            color: azure;
+            font-family: monospace, serif;
+            text-align: center;
+        }
+        .color14{
+            background: #985980;
+            font-family: monospace, serif;
+            font-size: 25;
+        }
+        .border3{
+            border: 2px solid #7886e0;
+            border-collapse: collapse;
+        }
+        .border3 td {
+            border: 3px solid #606cb7
+        }
+        .border3 th {
+            border: 3px solid #606cb7
+        }
+    </style>
+    
+<body>
+   
+    <table border="1"  cellpadding="10">
+        
+    <caption>Таблиця 1</caption>
+    
+   <tr>
+         <th rowspan = "2">№</th>
+         <th colspan = "2" >Теги</th>
+   </tr>
+   <tr>
+         <th width = "100">Тег</th>
+         <th>Значення</th>
+    </tr>
+   <tr>
+         <td>1</td>
+         <td>p</td>
+         <td rowspan = "4">для тексту</td>
+    </tr>
+   <tr>
+         <td>2</td>
+         <td>a</td>
+         
+    </tr>
+   <tr>
+         <td>3</td>
+         <td>b</td>
+         
+   </tr>
+   <tr>
+         <td>4</td>
+         <td>i</td>
+         
+   </tr>
+   <tr>
+         <td>5</td>
+         <td>table</td>
+         <td>таблиця</td>
+    </tr>
+   <tr>
+         <td>6</td>
+         <td>tr</td>
+         <td>рядок таблиці</td>
+    </tr>
+   <tr>
+         <td >7</td>
+         <td>th</td>
+         <td rowspan="2">комірка таблиці</td>
+    </tr>
+   <tr>
+         <td>8</td>
+         <td>td</td>
+         
+    </tr>
+         
+         
+        
+ </table>
+    
+    <br><br><br>
+    
+     <table cellpadding="10" width = "600" class="border">
+         <caption>Таблиця 2</caption>
+          <tr class="color1">
+              <th>№</th>
+              <th>ПІП студента</th>
+              <th>Адреса</th>
+              <th>Телефон</th>
+          </tr>
+          <tr class="color3">
+              <td class="color2">1</td>
+              <td>Петров І.В.</td>
+              <td>Адреса 1</td>
+              <td>+380956321458</td>        
+          </tr>
+          <tr class="color3">
+               <td class="color2">2</td>
+               <td>Сидоров П.А.</td>
+               <td>Адреса 2</td>
+               <td>+380507489658</td>
+          </tr>
+          <tr class="color3">
+               <td class="color2">3</td>
+               <td>Козачук А.Р.</td>
+               <td>Адреса 3</td>
+               <td>+380458695478</td>
+                            
+
+         </tr>
+          <tr class="color3">
+              <td class="color2">4</td>
+              <td>Карпатський О.Д.</td>
+              <td>Адреса 4</td>
+              <td>+380548796325</td>
+         </tr>
+          <tr class="color4">
+              <th colspan="3">Загальна кількість</th>
+              <th>4</th>
+          </tr>
+         
+       </table>
+    
+    <br><br><br>
+    
+    <table class="border1" border="1" cellpadding="10" width = "400">
+        <caption>Таблиця 3</caption>
+        <tr class="colortext1">
+          <td>Company</td>
+          <td>Q1</td>
+          <td>Q2</td>
+          <td>Q3</td>
+        </tr>
+        <tr class="colortext2">
+          <td>Microsoft</td>
+          <td>20.3</td>
+          <td>30.5</td>
+        </tr>
+        <tr class="colortext2">
+          <td>Google</td>
+          <td>50.2</td>
+          <td>40.63</td>
+          <td>45.23</td>
+        </tr>
+        
+    </table>
+    
+     <br><br><br>
+    
+    <table class="border2"  cellpadding="10">
+        <caption>Таблиця 4</caption>
+        <tr height="50" class="color6">
+            <td colspan="5">ШАПКА</td>
+        </tr>
+        <tr class="color7">
+            <td>меню</td>
+            <td>меню</td>
+            <td>меню</td>
+            <td>меню</td>
+            <td>меню</td>
+        </tr>
+        <tr height="150">
+            <td colspan="2" class="color5">новини</td>
+            <td colspan="3" class="color7">контент</td>
+        </tr>
+    </table>
+    
+    <br><br><br>
+    
+    <table class="border" width="400" cellpadding="10">
+        <caption>Таблиця 5</caption>
+        <tr>
+            <td class="color8">ШАПКА</td>
+            <td rowspan="2" class="color9">МЕНЮ</td>
+            
+        </tr>
+        <tr height="200" class="color10">
+            <td>КОНТЕНТ</td>
+        </tr>
+        <tr class="color8">
+            <td colspan="2">НИЗ САЙТУ</td>
+        </tr>
+        
+        </table>
+    
+    <br><br><br>
+    
+    <table  class="border3" width="400" cellpadding="10">
+        <caption>Таблиця 6</caption>
+        <tr>
+            <td rowspan="3" class="color13" width="100">новини</td>
+            <td height="100" class="color14">ШАПКА</td>
+        </tr>
+        <tr class="color12">
+            <td>МЕНЮ</td>
+        </tr>
+        <tr height="200" class="color11">
+            <td>КОНТЕНТ</td>
+        </tr>
+        
+        
+        
+    </table>
+    <center><a>&copy; Виконавець студентка 243 групи, Подлєсна Наталія</a></center>
+    <hr>
+</body>
+</html>
